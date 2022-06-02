@@ -1,1 +1,3 @@
 # MARS
+
+git push
