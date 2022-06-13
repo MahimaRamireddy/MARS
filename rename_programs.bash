@@ -1,16 +1,20 @@
-//convert the .py files to .sh files
-#!/bin/sh
-CWD="$(pwd)"
-path/to/python python_script.py //copy the given .py files to a text file 
-  
-  //save them with .sh extension
- 
-//change the permissions of the .sh files using chmod u+x FILENAME.sh
-//this gives us the executable .sh files
+#! /bin/bash
 
-//convert .sh files to .c file
-//copy the .sh file to a new file
-//clear the first line in the new file
-//now save the new file withn .c extension
+cd task1
+cd programs
+ mv area_and_circumference.py  area_and_circumference.c
+ mv area_of_square.py  area_of_square.c
+ mv bubblesort.py  bubblesort.c
+ mv diceroll.py  diceroll.c
+ mv gcd.py  gcd.c    
+ mv helloworld.py    helloworld.c
+ mv pointers.py pointers.c
+ mv area_of_circle.py  area_of_circle.c  
+mv area_of_triangle.py  area_of_triangle.c
+mv decimaltobaseN.py  decimaltobaseN.c
+mv factorial.py  factorial.c
+mv heapsort.py  heapsort.c
+mv magicnumbers.py magicnumbers.c
+
 
 
