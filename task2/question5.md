@@ -22,4 +22,9 @@
 |-> sound sensors
 |-> position sensors
 
-# actuators
+# actuators  (electro-motor driven actuators)
+|-> mobility
+|-> camera pointing
+|-> telecommunications antenna steering
+|-> rock sample acqusition
+|-> sample processing
